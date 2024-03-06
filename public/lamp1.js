@@ -1,0 +1,1 @@
+const travelL = document.getElementById("currentL")
