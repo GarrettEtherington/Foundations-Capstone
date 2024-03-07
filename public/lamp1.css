@@ -8,6 +8,10 @@ body {
     /* background-color: blue; */
 }
 
+#top2 {
+    justify-content: space-evenly;
+}
+
 #hud {
     background-color: rgb(52, 102, 46);
     border: 5px solid rgb(0, 136, 0);
@@ -18,7 +22,14 @@ body {
     position: relative;
     justify-content: center; 
     left: 75%;
-    top: 6vh;
+    bottom: 300px;
+}
+
+#babe {
+    display: flex;
+    position: relative;
+    top: 20vh;
+    padding: 0px 0px 0px 300px;
 }
 
 #urSpot {
