@@ -1,11 +1,25 @@
 const travelL = document.getElementById("currentL")
-const data = travelL.addEventListener("change", () => {moveTo(`${travelL.value}`)})
-console.log(1, data)
+const babeContainer = document.getElementById("babesList")
+
+const baseURL = `api/babes`
+
+const errCallback = err => console.log(err);
 
 const moveTo = (endpoint) => {
-    axios.get(`http://localhost:4545/api/${endpoint}/`)
-        .then(res => {
-            const data = res.data
-            return data
-        })
+    window.location.pathname = `public/${endpoint}.html`
+};
+
+const getAllBabes = () => {
+    axios.get(baseURL).then(showBabes).catch(errCallback)
 }
+
+function showBabes(arr) {
+    arr.forEach(babe => {
+        const div = document.createElement('li')
+        div.textContent = babe.name
+        babeContainer.appendChild(div)
+    })
+}
+
+
+travelL.addEventListener("change", () => {moveTo(travelL.value)})
