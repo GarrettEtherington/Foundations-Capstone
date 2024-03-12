@@ -3,10 +3,54 @@
     <head>
         <title>Moth Quest VI: The Mothening</title>
         <link rel="stylesheet" href="./lamp4.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <section id="top">
+            
+            <div id ="babe">
+                <img id="babeImage" src="" alt="" data-custom="">
+            </div>
+
+            <div id="hud">
+                
+                 <div id="list">
+                    <div id="location">
+                        <h4 id="urSpot">Current Location</h4>
+                        <select id="currentL">
+                            <option value="moon">Big Sky Lamp</option>
+                            <option value="rest">Rest Stop</option>
+                            <option value="hill">Hill Above Town</option>
+                            <option value="window">Bedroom Window</option>
+                        </select>
+                    </div>
+
+                    <div id="babes">
+                        <h4 id="whamen">Babes</h4>
+                            <ul id="babesList"></ul>
+                    </div>
+                </div>   
+                <button id="completeBtn">Become Alpha</button>
+            </div>
+        </section>
         
+        <section id="bottom">
+            <div id="textField">
+                <!-- <div id="speaker"></div> -->
+                <div id="textBox">
+                    <p id="writing">This sight, magnificent, to put it lightly. You aren't sure why, but when it gets dark, sometimes this majestic, powerful lamp like object will begin occupying the sky, and many a babe is sure to be found observing such a sight.</p>
+                    <div id="buttons">
+                        <button id="butt7" value="7">look to the sky</button>
+                        <button id="butt8" value="8">look towards the hill</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="lamp1.js"></script>
+
     </body>
 </html>

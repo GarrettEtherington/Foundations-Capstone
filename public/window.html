@@ -3,38 +3,54 @@
     <head>
         <title>Moth Quest VI: The Mothening</title>
         <link rel="stylesheet" href="./lamp2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     </head>
     <body>
         <section id="top">
-            <div id ="babe"></div>
+            
+            <div id ="babe">
+                <img id="babeImage" src="" alt="" data-custom="">
+            </div>
+
             <div id="hud">
-                <div id="list">
+                
+                 <div id="list">
                     <div id="location">
-                        <h4>Current Location</h4>
-                        <select>
-                            <option>Hill Above Town</option>
-                            <option>Bedroom Window</option>
-                            <option>Rest Stop</option>
-                            <option>Big Sky Lamp</option>
+                        <h4 id="urSpot">Current Location</h4>
+                        <select id="currentL">
+                            <option value="window">Bedroom Window</option>
+                            <option value="hill">Hill Above Town</option>
+                            <option value="rest">Rest Stop</option>
+                            <option value="moon">Big Sky Lamp</option>
                         </select>
                     </div>
+
                     <div id="babes">
-                        <h4>Babes</h4>
-                            <ul id="babes"></ul>
+                        <h4 id="whamen">Babes</h4>
+                            <ul id="babesList"></ul>
                     </div>
-                    <div id="completeBtn">
-                        <button>Become Alpha</button>
-                    </div>
-                </div>
+                </div>   
+                <button id="completeBtn">Become Alpha</button>
             </div>
         </section>
+        
         <section id="bottom">
-            <div id="text feild">
-                <div id="speaker"></div>
+            <div id="textField">
+                <!-- <div id="speaker"></div> -->
+                <div id="textBox">
+                    <p id="writing">this quaint little window peeks into a relatively nice home in a relatively nice country town, you're here looking for underapreceated moth queens!</p>
+                    <div id="buttons">
+                        <button id="butt3" value="3">look around the window</button>
+                        <button id="butt4" value="4">search the ground</button>
+                    </div>
+                </div>
             </div>
         </section>
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="lamp1.js"></script>
+
     </body>
 </html>

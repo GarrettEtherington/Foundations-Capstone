@@ -3,8 +3,8 @@
         "deathsHead": {
             "name": "deaths head",
             "id": 1,
-            "img": "./images/tz-bardmoth-.jpg",
-            "word": "emo babe, click to aquire"
+            "img": "",
+            "word": "i like trains"
         }
     },
     {
@@ -27,8 +27,8 @@
         "lunaMoth": {
             "name": "luna moth",
             "id": 4,
-            "img": "",
-            "word": ""
+            "img": "./images/ying-yi-csp.png",
+            "word": "a pale, well dressed babe approches, drawn in by your powerful aura. She is a luna moth, and seems entranced by your pressence."
         }
     },
     {
@@ -43,23 +43,23 @@
         "silkMoth": {
             "name": "silk moth",
             "id": 6,
-            "img": "",
-            "word": ""
+            "img": "./images/tz-bardmoth-.png",
+            "word": "a magnificent silk moth catches your eye, but not as much as you've caught hers. She stands elegantly gazing at your Greek God-esk form."
         }
     },
     {
-        "oo": {
-            "name": "jack",
+        "tigerMoth": {
+            "name": "tiger moth",
             "id": 7,
-            "img": "",
+            "img": "./images/tz-bard-asset.png",
             "word": ""
         }
     },
     {
-        "o": {
-            "name": "aku",
+        "gypsyMoth": {
+            "name": "gypsy moth",
             "id": 8,
-            "img": "",
+            "img": "./images/skyfire-230417-1054-1400.png",
             "word": ""
         }
     }

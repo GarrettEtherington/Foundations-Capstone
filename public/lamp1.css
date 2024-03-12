@@ -1,5 +1,7 @@
 body {
- background-image: url(https://i.ebayimg.com/images/g/c8QAAOSwFEZjoiJE/s-l1600.jpg);
+ background-image: url(./images/hill1.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
  display: flex;
  flex-direction: column;
  padding: 50px 180px 0 180px;
