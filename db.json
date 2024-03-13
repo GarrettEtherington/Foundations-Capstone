@@ -3,64 +3,66 @@
         "deathsHead": {
             "name": "deaths head",
             "id": 1,
-            "img": "",
-            "word": "i like trains"
+            "img": "./images/20240312_161727.jpg",
+            "word": "you notice a lonely looking girl perched on the far end of the bench, uppon further inspection, it apears to be a Death's Head moth! It seems she can't help but be drawn to the site of a protagonistic moth such as yourself."
         }
     },
     {
         "atlas": {
             "name": "atlas",
             "id": 2,
-            "img": "",
-            "word": ""
+            "img": "./images/ab67706c0000da84ed394290d217eaffde9cacb8.jpg",
+            "word": "close to the lamp, surrounded by what seems to be admirers, is a grandiose Atlas moth, towering above the others in the vicinity. your imposing presence clearly intrigues her."
         }
     },
     {
         "witeWitch": {
             "name": "white witch",
             "id": 3,
-            "img": "",
-            "word": ""
-        }
-    },
-    {
-        "lunaMoth": {
-            "name": "luna moth",
-            "id": 4,
-            "img": "./images/ying-yi-csp.png",
-            "word": "a pale, well dressed babe approches, drawn in by your powerful aura. She is a luna moth, and seems entranced by your pressence."
+            "img": "./images/ems.png",
+            "word": "place holder white witch text"
         }
     },
     {
         "rosyMaple": {
             "name": "rosy maple",
-            "id": 5,
-            "img": "",
-            "word": ""
-        }
-    },
-    {
-        "silkMoth": {
-            "name": "silk moth",
-            "id": 6,
-            "img": "./images/tz-bardmoth-.png",
-            "word": "a magnificent silk moth catches your eye, but not as much as you've caught hers. She stands elegantly gazing at your Greek God-esk form."
+            "id": 4,
+            "img": "./images/tvlm24ywmtq91.jpeg",
+            "word": "place holder rosy maple text"
         }
     },
     {
         "tigerMoth": {
             "name": "tiger moth",
-            "id": 7,
+            "id": 5,
             "img": "./images/tz-bard-asset.png",
-            "word": ""
+            "word": "Upon entering the garden, you are immediately approached by an enthusiastic tiger moth, (she's enthusiastic about a giga moth like you)"
         }
     },
+    
     {
         "gypsyMoth": {
             "name": "gypsy moth",
-            "id": 8,
+            "id": 6,
             "img": "./images/skyfire-230417-1054-1400.png",
-            "word": ""
+            "word": "around back of the rest stop, a lone Gypsy moth is looking into the building through a window. She seems awfully energetic."
+        }
+    },
+    {
+        "lunaMoth": {
+            "name": "luna moth",
+            "id": 7,
+            "img": "./images/ying-yi-csp.png",
+            "word": "you look up and see total squat, but when you look back down, a well dressed babe approches, drawn in by your powerful aura. She is a luna moth, and seems entranced by your pressence."
+        }
+    },
+    {
+        "silkMoth": {
+            "name": "silk moth",
+            "id": 8,
+            "img": "./images/tz-bardmoth-.png",
+            "word": "a magnificent silk moth catches your eye, but not as much as you've caught hers. She stands elegantly gazing at your Greek God-esk form."
         }
     }
+    
 ]

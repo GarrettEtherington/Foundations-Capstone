@@ -2,8 +2,10 @@ const travelL = document.getElementById("currentL")
 const babeContainer = document.getElementById("babesList")
 const button1 = document.getElementById("butt1")
 const button2 = document.getElementById("butt2")
+const doneBtn = document.getElementById("completeBtn")
 const babs = document.getElementById("babeImage")
 const wordZ = document.getElementById("writing")
+const wordsText = wordZ.textContent
 
 const baseURL = "http://localhost:4545/api/babes"
 const errCallback = err => console.log(err);
@@ -42,6 +44,13 @@ const gimmieBabe = (id) => {
     })
 }
 
+const becomeChad = (resP) => {
+    if (resP === "mhm") {
+        window.location.pathname = "/public/BecomeChad.html"
+    } else if (resP === "uh uh") {
+        alert("insufficient babes")
+    }
+}
 
 
 function showBabes({ data: arr }) {
@@ -49,12 +58,14 @@ function showBabes({ data: arr }) {
     arr.forEach(babe => {
         const babeHolder = document.createElement("li");
         babeHolder.style.display = "flex";
+        babeHolder.style.padding = "7px 0"
         babeContainer.style.padding = "0";
         babeHolder.style.justifyContent = "space-between";
 
         const babeName = document.createElement("p");
         const deleteBtn = document.createElement("button");
-        deleteBtn.style.margin = "15px 0";
+        babeName.classList.add("mothName")
+        // deleteBtn.style.margin = "15px 0";
 
         babeName.textContent = babe.name;
         deleteBtn.textContent = "x";
@@ -81,7 +92,16 @@ function showBabes({ data: arr }) {
     });
 }
 
+getAllBabes()
+
 travelL.addEventListener("change", () => {moveTo(travelL.value)})
 button1.addEventListener("click", () => { const buttonValue = button1.value; gimmieBabe(buttonValue)})
 button2.addEventListener("click", () => { const buttonValue = button2.value; gimmieBabe(buttonValue)})
+doneBtn.addEventListener("click", () => { axios.get(`http://localhost:4545/api/chad`)
+    .then(res => {
+        const unga = res.data
+        becomeChad(unga)
+    })
+    .catch(errCallback)})
+    
 babs.addEventListener("click", () => {const babeId = babs.getAttribute('data-custom'); addBabe(babeId); getAllBabes})

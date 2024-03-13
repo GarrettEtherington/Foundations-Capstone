@@ -70,11 +70,13 @@ module.exports = {
     },
     
     becomeChad: (req, res) => {
-        if(list.length === 7) {
-            // Move to chad page
+        console.log(list.length)
+        if(list.length === 8) {
+            res.status(200).send("mhm")
         } else {
-            // alert nbot enouigh moths
+            res.status(200).send("uh uh")
         }
     }
 }
+
 
