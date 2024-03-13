@@ -3,7 +3,7 @@
         "deathsHead": {
             "name": "deaths head",
             "id": 1,
-            "img": "./images/20240312_161727.jpg",
+            "img": "./images/ilya-kuvshinov-img-5449.png",
             "word": "you notice a lonely looking girl perched on the far end of the bench, uppon further inspection, it apears to be a Death's Head moth! It seems she can't help but be drawn to the site of a protagonistic moth such as yourself."
         }
     },
@@ -11,7 +11,7 @@
         "atlas": {
             "name": "atlas",
             "id": 2,
-            "img": "./images/ab67706c0000da84ed394290d217eaffde9cacb8.jpg",
+            "img": "./images/skyfire-0723-1150-1400-2.png",
             "word": "close to the lamp, surrounded by what seems to be admirers, is a grandiose Atlas moth, towering above the others in the vicinity. your imposing presence clearly intrigues her."
         }
     },
@@ -19,16 +19,16 @@
         "witeWitch": {
             "name": "white witch",
             "id": 3,
-            "img": "./images/ems.png",
-            "word": "place holder white witch text"
+            "img": "./images/alexandra-fomina-1.png",
+            "word": "sitting on the edge of the window you see a baeutiful White Witch moth, however, she doesn't seem to be wearing her iconic witch uniform. This however, doesn't make her any less precious."
         }
     },
     {
         "rosyMaple": {
             "name": "rosy maple",
             "id": 4,
-            "img": "./images/tvlm24ywmtq91.jpeg",
-            "word": "place holder rosy maple text"
+            "img": "./images/yao-wang-.png",
+            "word": "down below the window, you see a moth wearing a witch's outfit, upoon further inspection it seems to be a Rosy Maple moth. maybe she stole the white witch's outfit?"
         }
     },
     {

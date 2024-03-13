@@ -131,3 +131,9 @@ body {
   .mothName {
     margin: 0;
   }
+
+  #chadd {
+    background-image: url(./images/windsor-hero-2.png);
+    background-color: #143115;
+    background-size: 140%;
+  }

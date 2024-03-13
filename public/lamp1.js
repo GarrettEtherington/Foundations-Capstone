@@ -58,7 +58,7 @@ function showBabes({ data: arr }) {
     arr.forEach(babe => {
         const babeHolder = document.createElement("li");
         babeHolder.style.display = "flex";
-        babeHolder.style.padding = "7px 0"
+        babeHolder.style.padding = "10px 0"
         babeContainer.style.padding = "0";
         babeHolder.style.justifyContent = "space-between";
 
